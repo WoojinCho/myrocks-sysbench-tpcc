@@ -14,5 +14,5 @@ TPCC-like workload for sysbench 1.0.x.
 # Run benchmark
 
 `
-./tpcc.lua --mysql-socket=/tmp/mysql.sock --mysql-user=root --mysql-db=sbr --time=300 --threads=16 --report-interval=1 --tables=5 --scale=50 --db-driver=mysql run
+./tpcc.lua --mysql-socket=/tmp/mysql.sock --mysql-user=root --mysql-db=sbr --time=1000 --threads=16 --report-interval=1 --tables=5 --scale=50 --db-driver=mysql run
 `
